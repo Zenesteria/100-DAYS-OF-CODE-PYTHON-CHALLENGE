@@ -23,8 +23,8 @@ type(a) #str
 b = 123
 type(b) #int
 
-# no_of_char = str(len(input('What is your name?\n')))
-# print('Your name has ' + no_of_char + ' characters.')
+no_of_char = str(len(input('What is your name?\n')))
+print('Your name has ' + no_of_char + ' characters.')
 
 
 # Mathematical Operations ORDER OF PRIORITY - BEDMAS taking a priority from left to right
@@ -33,8 +33,8 @@ b = 6 * 4 #multiplication
 c = 6 / 2 #Division - a division operation always returns a float
 d = 2 ** 3 #Exponentiation
 
-# print(int(2.75)) #output 2 passing a float to an int function would take the whole number part of the float
-# print(float(2)) #output 2.0 passing an int to a float function would take the whole number part and convert it to a float
+print(int(2.75)) #output 2 passing a float to an int function would take the whole number part of the float
+print(float(2)) #output 2.0 passing an int to a float function would take the whole number part and convert it to a float
 
 # Number Manipulation and F strings
 print(round(8/3, 2)) #rounds up the value to a specific number of decimal places, 0 by default
